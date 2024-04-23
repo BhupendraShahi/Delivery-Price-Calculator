@@ -9,7 +9,7 @@ This repository contains the backend code for a food delivery app, including a d
 
 ## Installation
 1. Clone the repository:
-"git clone https://github.com/BhupendraShahi/food-delivery-api.git
+https://github.com/BhupendraShahi/delivery-price-calculator.git
 
 2. Install dependencies:
 cd food-delivery-api
