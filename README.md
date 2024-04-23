@@ -29,7 +29,7 @@ Send a POST request to /api/calculate-price with the following payload:
 {
   "zone": "central", // two options central/suburban
   "organization_id": "03", // "01", "02","03"
-  "total_distance": 12, //
+  "total_distance": 12, // if <= 5 cost 10, if > 5 then cost + 1.5/km(if perishable) else 1/km(if non-perishable)
   "item_type": "perishable" //perishable/non-perishable
 }
 
