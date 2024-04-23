@@ -1,5 +1,5 @@
 const { DataTypes } = require("sequelize");
-const db = require("../config/dbCongif");
+const db = require("../config/dbConfig");
 
 const Organization = db.define("Organization", {
   name: {
@@ -9,3 +9,4 @@ const Organization = db.define("Organization", {
 });
 
 module.exports = Organization;
+
