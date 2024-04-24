@@ -20,11 +20,11 @@ npm install
 4. Start the server:
 npm start
 
-# API Documentation
+## API Documentation
 The API endpoints are documented using Swagger. After starting the server, you can access the Swagger documentation at http://localhost:{PORT}/.
 
 ## Usage
-# Calculate Delivery Cost
+### Calculate Delivery Cost
 - For persishable items 1.5/km
 - For non-perishable items 1.0/km
 - Base km is same for every zone i.e 5
@@ -61,7 +61,7 @@ The response will include the total price for the delivery in cents. ($20 => 200
 ## Manage Organizations, Items, and Pricing
 Use the provided API endpoints to manage organizations, items, and pricing data.
 
-# Contributing
+## Contributing
 Contributions are welcome! Please follow these steps:
 Fork the repository.
 Create a new branch (git checkout -b feature/your-feature-name).
