@@ -25,6 +25,11 @@ The API endpoints are documented using Swagger. After starting the server, you c
 
 ## Usage
 # Calculate Delivery Cost
+- For persishable items 1.5/km
+- For non-perishable items 1.0/km
+- Base km is same for every zone i.e 5
+- Fix price is also same i.e 10
+
 Send a POST request to /api/calculate-price with the following payload:
 (use without comments)
 ```json
