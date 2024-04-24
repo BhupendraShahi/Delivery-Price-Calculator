@@ -26,12 +26,14 @@ The API endpoints are documented using Swagger. After starting the server, you c
 ## Usage
 # Calculate Delivery Cost
 Send a POST request to /api/calculate-price with the following payload:
+```json
 {
   "zone": "central", // two options central/suburban
   "organization_id": "03", // "01", "02","03"
   "total_distance": 12, // if <= 5 cost 10, if > 5 then cost + 1.5/km(if perishable) else 1/km(if non-perishable)
   "item_type": "perishable" //perishable/non-perishable
 }
+```
 
 The response will include the total price for the delivery in cents. ($20 => 2000 cents)
 
